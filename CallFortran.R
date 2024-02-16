@@ -1,3 +1,6 @@
+# compile Fortran lib in terminal/command line using:
+# R CMD SHLIB horner.f90
+
 dyn.load("horner.so")
 
 horner <- function(a, x) {
